@@ -65,7 +65,6 @@ def declare_config_settings():
             name = triple,
             constraint_values = triple_to_constraint_set(triple),
         )
-        print("Declared config_setting for triple: {}".format(triple))
 
     # Add alias for wasm to maintain backwards compatibility.
     native.alias(
